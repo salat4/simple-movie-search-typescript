@@ -1,0 +1,147 @@
+
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container > p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .container > form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container > form > input{
+    margin-bottom: 10px;
+    width: 300px;
+    margin-top: 20px;
+  }
+  .container > form > button{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+  }
+
+  .container > form > button:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+
+  }
+.list>li{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin-bottom: 30px;
+}
+.list > li > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+}
+.list > li >div:hover{
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.list > li >div:not(:last-child){
+    margin-bottom: 30px;
+}
+.scroll{
+    margin-top: 20px;
+    padding: 15px 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.scroll:hover{
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.heart{
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 10px 5px;
+}
+.heart > p {
+  margin-right: 9px;
+}
+.heart:not(:last-child){
+  margin-bottom: 30px;
+}
+.love__button{
+  border: 1px solid black;
+  padding: 10px 5px;
+  margin-bottom: 30px;
+}
+.love__button:hover{
+  cursor: pointer;
+}
+@media screen and (min-width: 360px) {
+  .container {
+      min-width: 360px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 100px;
+      padding-bottom: 50px;
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .list{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .list > li{
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+  }
+  .list > li{
+    margin-right: 50px;
+  }
+}  

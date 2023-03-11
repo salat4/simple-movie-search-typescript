@@ -1,0 +1,101 @@
+html, body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+       
+        /* scrollbar-color: #6969dd #e0e0e0;
+          scrollbar-width: thin; */
+  }
+
+  /* ::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(169, 169, 169);
+}
+
+::-webkit-scrollbar-thumb {
+      border-radius: 50px;
+      background-color: rgb(51, 0, 255);
+} */
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  button {
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background-color: inherit;
+    border-radius: 2px;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+  input[type="number"]:hover,
+  input[type="number"]:focus {
+    -moz-appearance: number-input;
+  }
+
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  video::-webkit-media-controls {
+    display: none !important;
+  }
+
+  :root {
+    --black: #000000;
+    --white: #ffffff;
+  }
